@@ -1,0 +1,28 @@
+.fullHeight{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.generalColor {
+    background-color: aqua;
+}
+
+.fontTitle{
+    text-transform: uppercase;
+}
+
+.center{
+    text-align: center;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    border-radius: 50%;
+    border: 1px solid black;
+}

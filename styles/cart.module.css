@@ -1,0 +1,71 @@
+.listCart {
+    padding-top: 50px;
+}
+
+.spaceItem {
+    padding-top: 5px;
+}
+
+.itemCart {
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 6px;
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.introProduct{
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.Check{
+    padding: 0px 20px 0px 0px;
+    font-size: 30px;
+}
+
+.miniImg {
+    background-image: url("/img/qiqi.jpg");
+    width: 60px;
+    height: 60px;
+    white-space: nowrap;
+    padding: 5px
+}
+
+.NameTitle {
+    font-size: 20px;
+    font-weight: 20px;
+    padding-left: 10px;
+}
+
+.detailProduct {
+    display: flex;
+    justify-content: flex-end;               
+    align-items: center;
+    width: 60%;
+    text-align: center;
+}
+
+.btnDelete {
+    padding: 10px 25px;
+}
+
+.seeMoney {
+    padding-top: 100px;
+    margin-bottom: -30px;
+}
+
+.intoMoney {
+    width: 100%;
+}
+
+.lastCol{
+    padding-left: 50%;
+}

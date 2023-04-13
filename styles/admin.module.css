@@ -1,0 +1,80 @@
+.layout{
+    display: flex;
+    max-height: 1000px;
+    background-color: rgb(89, 196, 43);
+}
+
+.menuHeight{
+    
+}
+
+.logoAdmin{
+    padding-right: 4px;
+}
+
+.nameIntro{
+    margin-left: 4px;
+    font-style: italic;
+}
+
+.menu{
+    width: 17%;
+    height: 587px;
+    background-color: black;
+    color: white;
+    background-size: cover;
+}
+
+.works {
+    width: 83%;
+    height: 500px;
+    background-color: blueviolet;
+}
+
+.listMenuAdmin{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 13px 0px;
+}
+
+.MenuItems {
+    width: 100%;
+    background-color: black;
+    border: 0px;
+    padding: 13px 0px 13px 20px;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.MenuItems:hover {
+    background-color: rgb(230, 230, 230);
+    color: rgb(39, 39, 39);
+}
+
+.listMenuAdmin:focus , .listMenuAdmin:focus-visible , .listMenuAdmin:active {
+    display: block;
+
+    /* padding-right: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-right: 0px; */
+}
+
+.MenuItems:focus , .MenuItems:focus-visible , .MenuItems:active{
+    display: block;
+    background-color: rgb(230, 230, 230);
+    color: rgb(39, 39, 39);
+    border-color: rgba(128, 128, 128, .4);
+    box-shadow: 0 0 0 .25rem rgba(128, 128, 128, .5);
+
+    /* border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-right: 0px; */
+}
+
+.ItemsIcon{
+    width: 20px;
+    margin-top: -5px;
+    height: 25px;
+}

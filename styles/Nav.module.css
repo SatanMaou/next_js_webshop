@@ -1,0 +1,23 @@
+.navBar{
+    --bs-navbar-padding-y: 0.28rem;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+/* .navItem{
+    width: 27%;
+} */
+
+.nlPad{
+    padding: 0px 0px;
+}
+
+.btnIconDown{
+    padding-right: 0.5625rem;
+    padding-left: 0.2rem;
+    margin-left: -14px !important;
+}
+
+.NavList {
+    top: 107% !important;
+}
